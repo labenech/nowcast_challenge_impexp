@@ -60,15 +60,16 @@ nowcast_challenge_impexp/
 
 3. **COVID-19 Data Requirement**:
 
-In order to run the full pipeline, you must manually download the COVID-19 stringency index dataset from Our World in Data:
-
-🔗 https://covid.ourworldindata.org/data/owid-covid-data.csv
-
-Once downloaded, place the file in the `data/` directory so it can be accessed by the forecasting scripts.
-
-```bash
-mkdir -p data
-wget https://covid.ourworldindata.org/data/owid-covid-data.csv -O data/owid-covid-data.csv
+   In order to run the full pipeline, you must manually download the COVID-19 stringency index dataset from Our World in Data:
+   
+   🔗 https://covid.ourworldindata.org/data/owid-covid-data.csv
+   
+   Once downloaded, place the file in the `data/` directory so it can be accessed by the forecasting scripts.
+   
+   ```bash
+   mkdir -p data
+   wget https://covid.ourworldindata.org/data/owid-covid-data.csv -O data/owid-covid-data.csv
+   ```
 
 4. **Run the Main Script**:
 
