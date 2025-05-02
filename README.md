@@ -12,7 +12,7 @@ The pipeline performs the following key steps:
 - **Feature Engineering**: Creates lag features, rolling means, and encodes cyclical time features.
 - **Standardization**: Applies standardization to the target variable by country.
 - **Model Training**: Trains multiple models (e.g., XGBoost, AutoARIMA) for each country.
-- **Evaluation**: Assesses model performance using metrics like RMSE and MAPE.
+- **Evaluation**: Assesses model performance using metrics like RMSE and MAE.
 - **Prediction**: Generates forecasts for future periods.
 - **Result Storage**: Saves predictions in a structured JSON format.
 
